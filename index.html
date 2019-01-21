@@ -15,23 +15,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <title>Ing. Jefferson Gerardo</title>
     
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    
+    
+    
+    
     <link href="css/index.css" rel="stylesheet">
     
     
     </head>
     
   <body>
-    <header class=header>
+    <header data-scroll-header id="header" class=header>
     <div class="container logo-nav-container">
       <a href="index.html" class="logo">Ing. Jefferson Gerardo</a>
-      <span class="menu-icon">MENU</span>
-    <nav class="navigation">
+      <span class="menu-icon">&#9776;</span>
+    <nav data-scroll-header class="navigation">
       <ul>
-        <li><a href="#experience">EXPERIENCE</a></li>
-        <li><a href="#education">EDUCATION</a></li>
-        <li><a href="#clients">CLIENTS</a></li>
-        <li><a href="#skills">SKILLS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+        <li><a data-scroll href="#experience">EXPERIENCE</a></li>
+        <li><a data-scroll href="#education">EDUCATION</a></li>
+        <li><a data-scroll href="#clients">CLIENTS</a></li>
+        <li><a data-scroll href="#skills">SKILLS</a></li>
+        <li><a data-scroll href="#contact">CONTACT</a></li>
       </ul>
     </nav>
     </div>
@@ -42,18 +48,11 @@
       
       <div class="photo-info-box">
         <section class="photo wow fadeInLeft" data-wow-duration="4s">
-          <div>
-            <div class="fondo-trans ">
             <img src="img/jeff.jpg"></img>
-          </div>
-          </div>
         </section>
         <section class="info-jeff wow fadeInRight" data-wow-duration="4s">
-            <div>
-          <h2>Ing. Jefferson Gerardo</h2>
-          <p1>Web disegner</p1>
-          <br>
-          <lu>
+         <h2>Ing. Jefferson Gerardo</h2>
+           <lu>
             <li>
               <h3>Phone:</h3>
               <p>+380-632246817</p>
@@ -64,7 +63,7 @@
             </li>
             <li>
               <h3>Address:</h3>
-              <p>street lazarenka 48a,<br> City Lviv, Ukraine</p>
+              <p>City Lviv, Ukraine</p>
               </li>
             
             <li>
@@ -72,7 +71,6 @@
               <p>March 11th, 1994</p>
             </li>
           </lu>
-          </div>
         </section>
       </div>
       
@@ -81,10 +79,10 @@
       <div class="box-socials wow fadeInDown" data-wow-duration="3s">
       <di class=box-icons>
         <ul>
-          <li><a href="https://www.facebook.com/jeffguam23" target=”_blank><i class="icono fab fa-facebook-f"></i></a></li>
-          <li><a href="https://www.instagram.com/jeffguam.23" target=”_blank><i class="icono fab fa-instagram"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/jefferson-guaman-b57014174/" target=”_blank><i class="icono fab fa-linkedin-in"></i></a></li>
-          <li><a href="https://api.whatsapp.com/send?phone=380632246817&text=mensaje" target=”_blank><i class="icono fab fa-whatsapp"></i></a></li>
+          <li><a href="https://www.facebook.com/jeffguam23" target="_blank"><i class="icono fab fa-facebook-f"></i></a></li>
+          <li><a href="https://www.instagram.com/jeffguam.23" target="_blank"><i class="icono fab fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/jefferson-guaman-b57014174/" target="_blank"><i class="icono fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=380632246817&text=mensaje" target="_blank"><i class="icono fab fa-whatsapp"></i></a></li>
         </ul>
       </di>
       </div>
@@ -101,7 +99,7 @@
     <section id="experience" class="info-experience"> 
       <section class="intro">
         <div class="container">
-          
+          <hr>
           <h1>EXPERIENCE</h1>
           <hr>
         </div>
@@ -110,12 +108,12 @@
         <ul>
           <li>
             <div>
-              <time>2018 - Actuality<br>LION INTEREDUCATION</time> CO-FOUNDER<br> Design, create and manage the website, manage revenues and costs, lead and coordinate strategic planning functions.
+              <time>2018 - Present<br>LION INTEREDUCATION</time> CO-FOUNDER<br> Design, create and manage the website, manage revenues and costs, lead and coordinate strategic planning functions.
             </div>
           </li>
           <li>
             <div>
-              <time>2012 - Actuality<br>INDEPENDENT</time> COMPUTER TECHNICAL SERVICE<br>Assembly, diagnosis and solution of problems, at hardware and software level, of a computer equipment. Provides advice to companies that require equipment of optimal performance and according to their needs.
+              <time>2012 - Present<br>INDEPENDENT</time> COMPUTER TECHNICAL SERVICE<br>Assembly, diagnosis and solution of problems, at hardware and software level, of a computer equipment. Provides advice to companies that require equipment of optimal performance and according to their needs.
             </div>
           </li>
           <li>
@@ -169,7 +167,7 @@
       <ul>
         <li>
           <div>
-            <time>2018 - Actuality<br>UNIVERSITY</time> LVIV POLYTECHNIC NATIONAL UNIVERSITY<br>Master's degree in the specialty of telecommunications and technical radio.<br>Area of specialization: Telecommunication Systems and Networks.
+            <time>2018 - Present<br>UNIVERSITY</time> LVIV POLYTECHNIC NATIONAL UNIVERSITY<br>Master's degree in the specialty of telecommunications and technical radio.<br>Area of specialization: Telecommunication Systems and Networks.
           </div>
         </li>
         <li>
@@ -197,18 +195,17 @@
         <div class="container">
           <hr>
           <h1>CLIENTS</h1>
-          
+          <hr>
         </div>
         
       </section>
-      <section>
+      <section class=iconos-clients>
         
-        <img src="img/nn.png" width=100px></img>
-        <img src="u"></img>
-        <img src="u"></img>
-      </section>
+        <img src="img/logo-lion-intereducation.png" width=100px></img>
+        
     </section>
-
+    </section>
+    
     <section id="skills" class="info-skills"> 
       <section class="intro">
         <div class=box-skills>
@@ -243,6 +240,11 @@
                   Visual Basic
                 </P>
             </div>
+            <div class="skill wow slideInLeft fadeIn" data-wow-duration="2.5s" >
+                <P>
+                  Professional driver
+                </P>
+            </div>
             
           </section>
           <section class="skills-right">
@@ -268,6 +270,12 @@
                   Ukrainian - B2
                 </P>
             </div>
+            <div class="skill wow slideInRight fadeIn" data-wow-duration="2.5s" >
+                <P>
+                  Adobe Photoshop
+                </P>
+            </div>
+            
           </section>
           
         </div>
@@ -277,6 +285,7 @@
     <section id="contact" class="info-contact"> 
       <section class="intro intro-contact">
         <div class="container">
+          <hr>
           <h1>CONTACT ME</h1>
           <hr>
         </div>
@@ -358,21 +367,22 @@
       </div>  
       </div>
     </section>
+    
     </main>
     <footer>
-      <div class="creado">
-        <p>Created by <a href="https://www.facebook.com/jeffguam23" target="_blank">JeffGuam</a></p>
-      </div>
       <div id="pie_pagina">
         <p>©2019 - Derechos Jefferson Gerardo</p>
       </div>
+      <div class="creado">
+        <p>Created by <a href="https://www.facebook.com/jeffguam23" target="_blank">JeffGuam</a></p>
+      </div>
       
+      <a href="#header" class="simplescrollup__button simplescrollup__button--hide"><i class="volverUp fas fa-angle-double-up"></i></a>
+   
             
     </footer>
     
-   
-  
-  
+  <script src="js/simplescrollup.js"></script>
  <script src="js/wow.min.js"></script>
      <script>
        new WOW().init();
@@ -381,6 +391,7 @@
   <script src="js/scripts.js"></script>
   <script src="js/timeline.js"></script>
   <script src="js/contact.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
